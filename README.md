@@ -1,6 +1,6 @@
 Smart Contract for OEM and Companies - Material Quality Assurance System
-This project is a comprehensive solution integrating Smart Contracts, Machine Learning, AI Models, and API Backends to ensure the quality of materials supplied by OEMs to companies. 
-The system focuses on assessing material composition, detecting defects, and validating prices through blockchain for enhanced transparency and accountability.
+This project is a comprehensive solution integrating Smart Contracts, Machine Learning, AI Models, and API Backends to ensure the quality of materials supplied by OEMs to companies. The system focuses on assessing material composition, detecting defects, and validating prices through blockchain for enhanced transparency and accountability.
+
 Project Overview
 1. Solidity Smart Contract
 A Solidity smart contract facilitates secure and decentralized interactions between OEMs and companies. Key features include:
@@ -75,8 +75,7 @@ Validate Materials:
 
 Provide input data for quality and defect checks.
 Verify results via the smart contract on the blockchain.
-
 Future Enhancements
 Add support for additional material properties, such as elasticity and thermal resistance.
 Integrate IoT sensors for real-time data collection from manufacturing units.
-Expand defect detection capabilities with more defect classes and higher resolution images.
+Expand defect detection capabilities with more defect classes and higher resolution images.
