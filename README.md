@@ -49,33 +49,45 @@ Random Forest ML Model: Predicts material hardness based on tempering_data.csv.
 AI Car Defection Model: Classifies defects using labeled image datasets in the defects folder.
 Node.js API: Serves as the backend for hardness prediction and defect classification.
 File Structure
-smartcont.sol             # Solidity smart contract
-ML_Model                  # Machine Learning model for hardness prediction
- tempering_data.csv    # Dataset for hardness prediction
- random_forest_model.py # Random Forest implementation
-AI_Car_Defection_Model    # Deep Learning model for defect detection
-  defects               # Image dataset for training and testing
-  ai_defect_model.py    # Model script
-  Backend                   # Backend API for model integration
-   app.js                # Node.js API
-   routes                # API routes
+plaintext
+Copy code
+├── smartcont.sol             # Solidity smart contract
+
+├── ML_Model                  # Machine Learning model for hardness prediction
+
+│   ├── tempering_data.csv    # Dataset for hardness prediction
+
+│   └── random_forest_model.py # Random Forest implementation
+
+├── AI_Car_Defection_Model    # Deep Learning model for defect detection
+
+│   ├── defects               # Image dataset for training and testing
+
+│   └── ai_defect_model.py    # Model script
+
+├── Backend                   # Backend API for model integration
+
+│   ├── app.js                # Node.js API
+
+│   └── routes                # API routes
+
 How to Use
 Deploy Smart Contract:
 Deploy the smartcont.sol file on a blockchain network (e.g., Ethereum or Binance Smart Chain).
 
 Train and Test Models:
-
 Train the Random Forest ML Model using the tempering_data.csv dataset.
 Train the AI Car Defection Model using the labeled image dataset in the defects folder.
-Integrate Backend:
 
+Integrate Backend:
 Set up the Node.js API to connect the smart contract with the models.
 Use the API endpoints for real-time predictions.
-Validate Materials:
 
+Validate Materials:
 Provide input data for quality and defect checks.
 Verify results via the smart contract on the blockchain.
+
 Future Enhancements
 Add support for additional material properties, such as elasticity and thermal resistance.
 Integrate IoT sensors for real-time data collection from manufacturing units.
-Expand defect detection capabilities with more defect classes and higher resolution images.
+Expand defect detection capabilities with more defect classes and higher resolution images.
