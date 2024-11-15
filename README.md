@@ -49,6 +49,12 @@ Random Forest ML Model: Predicts material hardness based on tempering_data.csv.
 AI Car Defection Model: Classifies defects using labeled image datasets in the defects folder.
 Node.js API: Serves as the backend for hardness prediction and defect classification.
 File Structure
+
+How to Use
+Deploy Smart Contract:
+Deploy the smartcont.sol file on a blockchain network (e.g., Ethereum or Binance Smart Chain).
+
+Train and Test Models:
 ├── smartcont.sol             # Solidity smart contract
 ├── ML_Model                  # Machine Learning model for hardness prediction
 │   ├── tempering_data.csv    # Dataset for hardness prediction
@@ -59,11 +65,7 @@ File Structure
 ├── Backend                   # Backend API for model integration
 │   ├── app.js                # Node.js API
 │   └── routes                # API routes
-How to Use
-Deploy Smart Contract:
-Deploy the smartcont.sol file on a blockchain network (e.g., Ethereum or Binance Smart Chain).
 
-Train and Test Models:
 
 Train the Random Forest ML Model using the tempering_data.csv dataset.
 Train the AI Car Defection Model using the labeled image dataset in the defects folder.
