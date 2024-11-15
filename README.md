@@ -49,8 +49,7 @@ Random Forest ML Model: Predicts material hardness based on tempering_data.csv.
 AI Car Defection Model: Classifies defects using labeled image datasets in the defects folder.
 Node.js API: Serves as the backend for hardness prediction and defect classification.
 File Structure
-plaintext
-Copy code
+
 ├── smartcont.sol             # Solidity smart contract
 
 ├── ML_Model                  # Machine Learning model for hardness prediction
