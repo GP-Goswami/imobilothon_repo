@@ -14,18 +14,22 @@ The smart contract acts as a digital agreement to streamline transactions and en
 A Machine Learning Random Forest Model is used to predict the hardness of materials based on their composition.
 
 Input: Material composition data.
+
 Output: Predicted hardness value.
+
 Dataset: tempering_data.csv, a dataset containing material composition and hardness data.
+
 Usage: Enables quality checks by predicting hardness values as per OEM standards.
+
 A Node.js backend API is integrated with the ML model to provide real-time predictions.
 
 3. AI Car Defection Model
 A Deep Learning AI Model analyzes car parts for defects such as:
 
-Cracks
-Breaks
-Scratches
-Paint Defects
+Cracks,
+Breaks,
+Scratches,
+Paint Defects,
 Input Dataset: The dataset is stored in the defects folder, containing labeled images for training and testing.
 
 Output: The model identifies whether the part is Defective or Non-Defective, along with the type of defect if applicable.
@@ -36,18 +40,25 @@ Material Quality Check:
 OEM provides material composition and sends it to the ML model via the backend API.
 The Random Forest Model predicts material hardness based on the input composition.
 The smart contract validates the predicted hardness against thresholds defined for each material.
+
 Defect Detection:
 
 Car parts are inspected using the AI Defection Model, which classifies images as Defective or Non-Defective.
 If defective, the system flags the material and provides details of the detected defect.
+
 Smart Contract Verification:
 
 The smart contract records transactions, including material details, quality checks, and agreed prices, on the blockchain.
 Key Components
+
 Smart Contract: smartcont.sol - Implements the blockchain logic for material quality and pricing validation.
+
 Random Forest ML Model: Predicts material hardness based on tempering_data.csv.
+
 AI Car Defection Model: Classifies defects using labeled image datasets in the defects folder.
+
 Node.js API: Serves as the backend for hardness prediction and defect classification.
+
 File Structure
 
 ├── smartcont.sol             # Solidity smart contract
